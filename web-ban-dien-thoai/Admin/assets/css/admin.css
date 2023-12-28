@@ -1,0 +1,70 @@
+#weatherWidget .currentDesc {
+  color: #ffffff !important;
+}
+.traffic-chart {
+  min-height: 335px;
+}
+#flotPie1 {
+  height: 150px;
+}
+#flotPie1 td {
+  padding: 3px;
+}
+#flotPie1 table {
+  top: 20px !important;
+  right: -10px !important;
+}
+.chart-container {
+  display: table;
+  min-width: 270px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#flotLine5 {
+  height: 105px;
+}
+
+#flotBarChart {
+  height: 150px;
+}
+#cellPaiChart {
+  height: 160px;
+}
+.font-list {
+  font-size: 15px;
+}
+
+.edit {
+  margin-left: 10px;
+}
+.edit1 {
+  margin-left: 40px;
+}
+.m-wTD1 {
+  max-width: 70px;
+}
+.m-wTD {
+  max-width: 40px;
+}
+
+.txt-center {
+  text-align: left;
+}
+.space-edit {
+  margin-left: 10px;
+}
+.btn-add {
+  float: right;
+}
+.sizeTh {
+  max-width: 10px;
+}
+.edit3 {
+  margin-left: 15px;
+}
+
+.space-center {
+  margin-left: auto;
+  margin-right: auto;
+}

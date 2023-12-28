@@ -1,0 +1,44 @@
+/* .collaborate-area */
+.collaborate-area h1 {
+  font-weight: bold;
+}
+
+.collaborate-area {
+  text-align: center;
+}
+
+.collaborate-area p {
+  margin: auto;
+  width: 90%;
+}
+
+.collaborate-area img {
+  width: 100%;
+}
+
+/* .collaborate-area */
+
+/* .signing-activities-area */
+
+.signing-activities-area {
+  margin-top: 80px;
+}
+
+.cta-hop-tac{
+  font-weight: bold;
+  color: #1e3769;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+.cta-hop-tac:hover{
+  color: #f9690e ;
+}
+
+
+
+/* .signing-activities-area */

@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Đào tọa - Khoa công nghệ thông tin</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="vendor/swiperjs/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/dao-tao.css" />
+    <meta
+    name="description"
+    content="Khoa Công nghệ Thông tin theo hướng ứng dụng”."
+  />
+  <meta property="og:site_name" content="EAUT - Khoa Công nghệ thông tin" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Trang chủ - EAUT" />
+  <meta
+    property="og:description"
+    content="Trường Đại học Công Nghệ Đông Á (EAUT) với triết lý giáo dục của nhà trường “Học phải có việc làm”."
+  />
+  <link
+    rel="icon"
+    href="https://eaut.edu.vn/wp-content/uploads/2023/07/cropped-th7umbnail-32x32.png"
+    sizes="32x32"
+  />
+  <link
+    rel="icon"
+    href="https://eaut.edu.vn/wp-content/uploads/2023/07/cropped-th7umbnail-192x192.png"
+    sizes="192x192"
+  />
+  <meta
+    name="msapplication-TileImage"
+    content="https://eaut.edu.vn/wp-content/uploads/2023/07/cropped-th7umbnail-270x270.png"
+  />
+  </head>
+  <body>
+
+    <!-- Nav -->
+    <header id="header" class="d-flex align-items-center header-scroll">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo"
+          ><img src="images/LogoEAUT-Final/logo-final.png" alt=""
+        /></a>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto" href="/index.html">TRANG CHỦ</a>
+            </li>
+            <li class="dropdown">
+              <a class="nav-link scrollto" href="about.html">GIỚI THIỆU</a>
+              <ul>
+                <li><a href="#">Khoa CNTT</a></li>
+                <li><a href="giang-vien.html">Giảng viên</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-link scrollto active" href="dao-tao.html"
+                >ĐÀO TẠO</a
+              >
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="nghien-cuu.html">NGHIÊN CỨU</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="hop-tac.html">HỢP TÁC</a>
+            </li>
+            <li><a class="nav-link scrollto" href="q&a.html">Q&A</a></li>
+            <li class="dropdown">
+              <a class="nav-link scrollto" href="news.html?id=1&page=1"
+                >TIN TỨC</a
+              >
+              <ul>
+            <li><a href="news.html?id=1&page=1">Tin tức chung</a></li>
+                <li><a href="news.html?id=2&page=1">Tin thông báo</a></li>
+                <li><a href="news.html?id=3&page=1">Tin tuyển dụng</a></li>
+                <li><a href="news.html?id=4&page=1">Hoạt động đối ngoại</a></li>
+                <li><a href="news.html?id=5&page=1">Hoạt động nghiên cứu</a></li>
+                <li><a href="news.html?id=6&page=1">Hoạt động kí kết</a></li>
+              </ul>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+
+        <nav id="sub-navbar" class="sub-navbar container">
+          <div class="subnav-wrapper">
+            <ul>
+              <li>
+                <a class="nav-link scrollto" href="/index.html">
+                  <span class="icon-square"></span>
+                  <i class="fas fa-home icon-home"></i>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="about.html"
+                  id="gioiThieudd"
+                  role="button"
+                  data-bs-toggle="false"
+                  aria-expanded="false"
+                >
+                  GIỚI THIỆU
+                </a>
+                <ul
+                  id="dropDownGT"
+                  class="dropdown-menu"
+                  aria-labelledby="gioiThieudd"
+                >
+                  <li>
+                    <a class="dropdown-item" href="about.html">Khoa CNTT</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="giang-vien.html"
+                      >Giảng viên</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="contact.html">Liên hệ</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav-link scrollto active" href="dao-tao.html"
+                  >ĐÀO TẠO</a
+                >
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="nghien-cuu.html"
+                  >NGHIÊN CỨU</a
+                >
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="hop-tac.html">HỢP TÁC</a>
+              </li>
+              <li><a class="nav-link scrollto" href="q&a.html">Q&A</a></li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="news.html?id=1&page=1"
+                  id="tinTucdd"
+                  role="button"
+                  data-bs-toggle="false"
+                  aria-expanded="false"
+                >
+                  TIN TỨC
+                </a>
+                <ul
+                  id="dropDownTT"
+                  class="dropdown-menu"
+                  aria-labelledby="tinTucdd"
+                >
+                	<li>
+                    <a class="dropdown-item" href="news.html?id=1&page=1"
+                      >Tin tức chung</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="news.html?id=2&page=1"
+                      >Tin thông báo</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="news.html?id=3&page=1"
+                      >Tin tuyển dụng</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="news.html?id=4&page=1"
+                      >Hoạt động đối ngoại</a
+                    >
+                  </li>
+				          <li>
+                    <a class="dropdown-item" href="news.html?id=5&page=1"
+                      >Hoạt động nghiên cứu</a
+                    >
+                  </li>
+				          <li>
+                    <a class="dropdown-item" href="news.html?id=6&page=1"
+                      >Hoạt động kí kết</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End NAV -->
+
+    <section class="banner-area">
+      <div class="container">
+        <img src="images/img-dao-tao/banner.png" alt="" />
+      </div>
+    </section>
+    <!-- End Banner -->
+
+    <!-- breadcrumb area -->
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb custom">
+          <li class="breadcrumb-item"><a href="index.html">TRANG CHỦ</a></li>
+          <li class="breadcrumb-item"><a href="dao-tao.html">ĐÀO TẠO</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            NGÀNH CÔNG NGHỆ THÔNG TIN
+          </li>
+        </ol>
+      </nav>
+      <hr class="hr-breadcrumb" />
+    </div>
+    <!-- end breadcrumb area -->
+
+    <!-- content-majors area -->
+    <section class="content-majors">
+      <div class="container">
+        <div></div>
+        <div class="row">
+          <div class="content-left col-md-9 col-xl-9">
+            <h1 class="title">NGÀNH CÔNG NGHỆ THÔNG TIN</h1>
+            <div class="info-majors d-md-none mb-5">
+              <span>Mã ngành</span>
+              <p>7340301</p>
+              <span>Thời gian học</span>
+              <p>04 năm</p>
+              <span>Tổ hợp môn thi</span>
+              <p>A00, A01, D01, C00</p>
+              <span>Học phí</span>
+              <p>22.000.000 vnđ/năm</p>
+            </div>
+            <div class="details">
+              <div class="intro">
+                <p>
+                  Công nghệ thông tin là ngành đào tạo các kỹ sư – cử nhân đảm
+                  nhận nhiệm vụ xây dựng và duy trì hệ thống công nghệ thông tin
+                  cho các tổ chức, doanh nghiệp, cơ quan chính phủ v.v.
+                </p>
+                <p>
+                  Cử nhân công nghệ thông tin là người có năng lực thiết kế,
+                  triển khai và duy trì các hạ tầng công nghệ thông tin, bao gồm
+                  các hệ thống phần cứng, mạng, dữ liệu, các hệ thống phần mềm
+                  cho một tổ chức hoặc doanh nghiệp.
+                </p>
+                <p>
+                  Một trong các nhiệm vụ quan trọng của cử nhân công nghệ thông
+                  tin là cài đặt các mạng máy tính, đảm bảo an toàn vận hành
+                  mạng, biết chọn lựa các giải pháp triển khai hệ thống, bao gồm
+                  cả việc lập trình lẫn việc mua sắm và tích hợp hệ thống.
+                </p>
+              </div>
+              <div class="target-major mt-5">
+                <h2>Mục tiêu đào tạo</h2>
+                <hr class="hr-custom" />
+                <p>
+                  1.Đào tạo các cử nhân có kiến thức rộng và cập nhật về công
+                  nghệ thông tin, bao gồm phần cứng, phần mềm, quản lý dự án
+                  CNTT. Có khả năng giải quyết vấn đề và chọn lựa giải pháp công
+                  nghệ.
+                </p>
+                <p>
+                  2.Cử nhân CNTT là người có năng lực làm việc với các đối tượng
+                  khác nhau trong tổ chức, có kỹ năng giao tiếp và thuyết phục,
+                  để thực hiện thành công các dự án
+                </p>
+                <p>
+                  3.Cử nhân CNTT cần nắm vững một số ngôn ngữ lập trình và khả
+                  năng xây dựng phần mềm để phục vụ các yêu cầu cụ thể của công
+                  việc.
+                </p>
+              </div>
+              <div class="education-program">
+                <h2>Chương trình đào tạo</h2>
+                <hr class="hr-custom" />
+                <div class="row" id="accordion">
+                  <div class="basic-subject col-xl-4">
+                    <h5
+                      id="headingOne"
+                      data-bs-toggle=""
+                      data-bs-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      Môn cơ sở
+                    </h5>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordion"
+                    >
+                      <ul>
+                        <li>Kinh tế chính trị Mác - Lênin</li>
+                        <li>Chủ nghĩa xã hội khoa học</li>
+                        <li>Lịch sử Đảng Cộng sản Việt Nam</li>
+                        <li>Tư tưởng Hồ Chí Minh</li>
+                        <li>Pháp luật đại cương</li>
+                        <li>Kỹ năng mềm</li>
+                        <li>Tin học đại cương</li>
+                        <li>Giải tích</li>
+                        <li>Đại số</li>
+                        <li>Toán rời rạc</li>
+                        <li>Xác suất thống kê</li>
+                        <li>Tiếng Anh 1</li>
+                        <li>Tiếng Anh 2</li>
+                        <li>Tiếng Anh 3</li>
+                        <li>Giáo dục thể chất</li>
+                        <li>Giáo dục quốc phòng và an ninh</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="main-subject col-xl-4">
+                    <h5
+                      id="headingTwo"
+                      data-bs-toggle=""
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Môn chuyên ngành
+                    </h5>
+                    <div
+                      id="collapseTwo"
+                      class="accordion-collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordion"
+                    >
+                      <ul>
+                        <li>Cơ sở lập trình với C</li>
+                        <li>Cơ sở dữ liệu</li>
+                        <li>Thiết kế Web</li>
+                        <li>Hệ thống thông tin quản lý</li>
+                        <li>Phát triển ứng dụng cho thiết bị di động</li>
+                        <li>Thương mại điện tử</li>
+                        <li>Cấu trúc dữ liệu và giải thuật</li>
+                        <li>Thực tập nhận thức ngành nghề</li>
+                        <li>Kiến trúc máy tính</li>
+                        <li>An toàn bảo mật thông tin</li>
+                        <li>Quản trị hệ thống Windows Server 1</li>
+                        <li>Nguyên lý hệ điều hành</li>
+                        <li>Hệ quản trị CSDL Oracle</li>
+                        <li>Công nghệ đa phương tiện</li>
+                        <li>Lập trình hướng đối tượng với Java</li>
+                        <li>Mạng máy tính</li>
+                        <li>Phân tích và thiết kế hệ thống</li>
+                        <li>Đồ án chuyên ngành</li>
+                        <li>Quản lý dự án CNTT</li>
+                        <li>Lập trình mạng</li>
+                        <li>Tiếng anh CN</li>
+                        <li>Lập trình .NET</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="elective-subject col-xl-4">
+                    <h5
+                      id="headingThree"
+                      data-bs-toggle=""
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Môn tự chọn
+                    </h5>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordion"
+                    >
+                      <b>B1 công nghệ phần mềm:</b>
+                      <ul>
+                        <li>Kiểm thử phần mềm</li>
+                        <li>Kỹ thuật đồ hoạ máy tính</li>
+                        <li>Trí tuệ nhân tạo</li>
+                        <li>Công nghệ Java</li>
+                        <li>Xử lý ảnh và thị giác máy tính</li>
+                        <li>Lập trình Web với PHP</li>
+                        <li>Lập trình ứng dụng với Python</li>
+                        <li>Công nghệ phần mềm</li>
+                        <li>Đồ án chuyên ngành CNPM</li>
+                        <li>Tiếng Anh CN CNPM</li>
+                      </ul>
+                      <b>B2 hệ thống thông tin:</b>
+                      <ul>
+                        <li>Công nghệ Blockchain</li>
+                        <li>Quản trị hệ thống Linux</li>
+                        <li>Quản trị hệ thống Windows Server 2</li>
+                        <li>Thiết kế và xây dựng hệ thống mạng doanh nghiệp</li>
+                        <li>Khai phá dữ liệu và ứng dụng</li>
+                        <li>Cơ sở dữ liệu phân tán</li>
+                        <li>Học máy (Machine Learning)</li>
+                        <li>Dữ liệu lớn (Big Data)</li>
+                        <li>Đồ án chuyên ngành HTTT</li>
+                        <li>Tiếng Anh CN HTTT</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="position-jobs">
+                <h2>Vị trí việc làm sau tốt nghiệp</h2>
+                <hr class="hr-custom" />
+                <p>
+                  Các doanh nghiệp thiết kế, gia công, phát triển phần mềm. Các
+                  công ty cung cấp nội dung số, sản xuất games. Các công ty tư
+                  vấn: tư vấn thiết kế các giải pháp về mạng, các giải pháp công
+                  nghệ thông tin cho doanh nghiệp. Các công ty kinh doanh dịch
+                  vụ và các sản phẩm CNTT, bao gồm cả phần cứng lẫn phần mềm.
+                </p>
+                <p>
+                  Bộ phận vận hành và phát triển công nghệ thông tin của các cơ
+                  quan, nhà máy, trường học, ngân hàng… các doanh nghiệp có ứng
+                  dụng công nghệ thông tin.
+                </p>
+                <p>
+                  Các trường cao đẳng, trung học chuyên nghiệp, các trường phổ
+                  thông (chỉ cần bổ sung chứng chỉ nghiệp vụ sư phạm theo quy
+                  định).
+                </p>
+                <p>
+                  Các Viện nghiên cứu và chuyển giao công nghệ thuộc lĩnh vực
+                  công nghệ thông tin. Cụ thể sinh viên có năng lực để làm việc
+                  tại các vị trí, chức danh sau: <br />Lập trình viên, Chuyên
+                  viên phân tích nghiệp vụ, Chuyên viên thiết kế phần mềm,
+                  Chuyên viên kiểm thử phần mềm...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="content-right col-md-3 col-xl-3">
+            <div class="info-majors d-none d-md-block">
+              <span>Mã ngành</span>
+              <p>7340301</p>
+              <span>Thời gian học</span>
+              <p>04 năm</p>
+              <span>Tổ hợp môn thi</span>
+              <p>A00, A01, D01, C00</p>
+              <span>Học phí</span>
+              <p>22.000.000 vnđ/năm</p>
+            </div>
+            <div class="news">
+              <h4>Tin tức mới</h4>
+              <hr class="hr-custom" />
+              <div id="post-new">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end content-majors area -->
+
+    <!-- Footer -->
+
+    <footer id="footer" class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-12 footer-info">
+              <a href="https://eaut.edu.vn/" class="eaut" target="_blank"
+                >Đại Học Công Nghệ Đông Á <br />
+                <span>Hà Nội</span></a
+              >
+              <p>
+                Cơ sở đào tạo thực hành: <br />
+                <br />
+                Toà Nhà Polyco, Trịnh Văn Bô, Nam Từ Liêm, Hà Nội<br />
+                <br />
+                <strong>Điện thoại:</strong> 0243.555.2008 <br />
+                <br />
+                <strong>Email:</strong> tuyensinh@eaut.edu.vn<br />
+              </p>
+            </div>
+
+            <div class="col-lg-4 col-md-12 footer-info">
+              <a href="index.html" class="eaut"
+                >Đại Học Công Nghệ Đông Á <br />
+                <span> Khoa Công Nghệ Thông Tin </span></a
+              >
+              <p>
+                Cơ sở đào tạo thực hành: <br />
+                <br />
+                Toà Nhà Polyco, Trịnh Văn Bô, Nam Từ Liêm, Hà Nội<br />
+                <br />
+                <strong>Điện thoại:</strong> 024.6262.7797 <br />
+                <br />
+                <strong>Email:</strong> thanhct@eaut.edu.vn<br />
+              </p>
+            </div>
+
+            <div class="col-lg-4">
+            <div class="map-footer">
+               <div class="map-footer">
+                <div class="google-maps">
+                   <iframe
+                      src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkhoacntteaut&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                      width="340"
+                      height="130"
+                      style="border: none; overflow: hidden"
+                      scrolling="no"
+                      frameborder="0"
+                      allowfullscreen="true"
+                      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    ></iframe>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <hr class="custom-hr2" />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-under">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-lg-start text-center">
+              <div class="copyright">
+                Copyright © 2023 Đại học Công Nghệ Đông Á All rights reserved.
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social-links mt-6">
+                <a
+                  href="https://www.facebook.com/khoacntteaut"
+                  class="facebook"
+                  target="_blank"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a
+                  href="https://www.tiktok.com/@daihoccongnghedonga"
+                  class="tiktok"
+                  target="_blank"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/@dhcnDongA"
+                  class="youtube"
+                  target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com/messages/t/105486557893424"
+                  class="messenger"
+                  target="_blank"
+                  ><i class="fab fa-facebook-messenger"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS File -->
+    <script src="vendor/jquery/jquery-3.6.3.min.js"></script>
+    <script src="vendor/AOS/aos@2.3.1_dist_aos.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="vendor/swiperjs/swiper-bundle1.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- JS -->
+    <script src="js/general.js"></script>
+    <script src="js/dao-tao.js"></script>
+    <script src="https://w.ladicdn.com/ladichat/sdk.js" id="64c0291bcb19aa0012d7c95a_64c0297aa96c3b0012ef7616" async></script>
+  </body>
+</html>

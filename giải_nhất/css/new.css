@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1e3769;
+  font-size: 8px;
+}
+
+#main {
+  position: relative;
+  padding-top: 6rem;
+}
+
+.single-post .post-meta {
+  margin-left: 78%;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 769px) {
+  .single-post .post-meta {
+    margin-left: 45%;
+  }
+}
+
+.single-post p {
+  font-size: 18px;
+}
+
+.post-content .firstcharacter {
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.nav-pills .nav-link {
+  font-size: 18px;
+  padding: 0px;
+  padding-right: 20px;
+  color: #1e3769;
+  font-weight: bold;
+}
+.nav-pills .nav-link:hover {
+  text-decoration: underline;
+}
+
+.nav-pills .nav-link.underline {
+  text-decoration: underline;
+}
+
+.nav-pills .nav-link.active {
+  text-decoration: underline;
+  background-color: #fff;
+  color: #1e3769;
+  font-weight: bold;
+}
+
+.tab-content h4 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #1e3769;
+  text-align: justify;
+}
+
+.post-entry-1 {
+  margin-bottom: 20px;
+}
+
+#footer {
+  background-color: #1e3769;
+  padding-top: 60px;
+  margin-top: 40px;
+}
+
+/* news */
+.news {
+  padding-top: 20px;
+}
+
+.news h4 {
+  text-align: center;
+}
+
+.news .post-item {
+  margin-bottom: 20px;
+}
+.news .post-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news .post-item a {
+  color: #09316b;
+  text-decoration: none;
+  font-size: 18px;
+}
+.news .post-item a:hover {
+  text-decoration: underline;
+}
+
+
+.single-post img{
+  padding-left: 0px !important;
+  margin: 0px auto;
+  width: 100% !important;
+}
+
+
+
+.single-post strong{
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.single-post div{
+  padding-left: 0px !important;
+  
+}
+
+.single-post h2,
+.single-post h3{
+  color: #1e3769 !important;
+    width: 100% !important;
+ }

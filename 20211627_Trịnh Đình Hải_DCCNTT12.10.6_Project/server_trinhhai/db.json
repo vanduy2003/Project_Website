@@ -1,0 +1,663 @@
+{
+  "users": [
+    {
+      "email": "a@gmail.com",
+      "password": "$2a$10$RLIYoAly4V6iaDuYcUBkKePC0dqo/Vku5DJP02.fFHgNV8BA34See",
+      "fullname": "minh nguyễn",
+      "id": 1
+    },
+    {
+      "email": "aolang69@gmail.com",
+      "password": "$2a$10$AbH8eKCpHgW0UqYGcphWHOkFgU7kXBjb7jkvNQvFT17n.pyop/hMG",
+      "fullname": "minh nguyễn",
+      "id": 2
+    },
+    {
+      "email": "b@gmail.com",
+      "password": "$2a$10$gHnt.q.7h8yFutEbNjBW7.QdBSdSO2F.m7fMnIRZMfMhrnv7UG4Ti",
+      "fullname": "minh nguyen",
+      "id": 3
+    },
+    {
+      "email": "trinhdinhhai688@gmail.com",
+      "password": "$2a$10$28qUe9ASEkBv2cIqpLG5GOKsNDSUPD4TAVkoja0qa0qj.UcHLJBOq",
+      "fullname": "Trinh Dinh Hai",
+      "id": 4
+    },
+    {
+      "email": "11122@gmail.com",
+      "password": "$2a$10$Jd0FCAyZ/qPXSsu2wuTrFu/G7ZI8lOf97O7sHD4yoACjB3/Zyq7TG",
+      "fullname": "hai trinh",
+      "id": 5
+    },
+    {
+      "email": "ht123@gmail.com",
+      "password": "$2a$10$kd25GqnZfn7JTMTp/Ji.rOjcQ1e7EBtRw5.JRQWKiuPgRdjC48pii",
+      "fullname": "Trinh Minh tuan",
+      "id": 6
+    },
+    {
+      "email": "trinhdinhhai@gmail.com",
+      "password": "$2a$10$nG7BWMCEmIUwy1Vs1k3JBeFuujzhQsK5LKNEZ9DB..R5Pc6zgIwQK",
+      "fullname": "Trinh Minh tuan",
+      "id": 7
+    },
+    {
+      "email": "trinhdinhha@gmail.com",
+      "password": "$2a$10$716xBmnG3ywzA8OhRhZEvOZQBwq62u4awODv/gKQt0i26umtZLXD6",
+      "fullname": "trinh hải",
+      "id": 8
+    }
+  ],
+  "carts": [
+    {
+      "id": "123",
+      "user_id": "231",
+      "products": [
+        {
+          "product_id": 4,
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "351c09966b458",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690469975,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "3",
+          "name": "Combo Hải Sản ",
+          "price": "680000",
+          "image": "../asset/image/food-menu/1(3).jpg",
+          "quantityInCart": 2
+        },
+        {
+          "id": "2",
+          "name": "Vẹn Hấp Mẻ Ớt",
+          "price": "120000",
+          "image": "../asset/image/food-menu/1(2).jpg",
+          "quantityInCart": 2
+        },
+        {
+          "id": "1",
+          "name": "Tôm Biển Hấp",
+          "price": "180000",
+          "image": "../asset/image/food-menu/1(1).jpg",
+          "quantityInCart": 2
+        },
+        {
+          "id": "4",
+          "name": "Cá Thu Chiên Xù",
+          "price": "140000",
+          "image": "../asset/image/food-menu/1(4).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "8660d25d8feb3",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690471478,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "3",
+          "name": "Combo Hải Sản ",
+          "price": "680000",
+          "image": "../asset/image/food-menu/1(3).jpg",
+          "quantityInCart": 2
+        },
+        {
+          "id": "2",
+          "name": "Vẹn Hấp Mẻ Ớt",
+          "price": "120000",
+          "image": "../asset/image/food-menu/1(2).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "78bb01d09e6b6",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690472253,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "7",
+          "name": "Hàu Chấm Muối Ớt",
+          "price": "190000",
+          "image": "../asset/image/food-menu/1(7).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "6",
+          "name": "Cá Thu Cauliflower",
+          "price": "130000",
+          "image": "../asset/image/food-menu/1(6).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "ddaae239de11a",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690472537,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "1",
+          "name": "Tôm Biển Hấp",
+          "price": "180000",
+          "image": "../asset/image/food-menu/1(1).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "48dc317059397",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690472635,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "1",
+          "name": "Tôm Biển Hấp",
+          "price": "180000",
+          "image": "../asset/image/food-menu/1(1).jpg",
+          "quantityInCart": 2
+        }
+      ]
+    },
+    {
+      "id": "630efa427eb1e",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690472865,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "1",
+          "name": "Tôm Biển Hấp",
+          "price": "180000",
+          "image": "../asset/image/food-menu/1(1).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "1fe50b82fba3",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690473017,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "1",
+          "name": "Tôm Biển Hấp",
+          "price": "180000",
+          "image": "../asset/image/food-menu/1(1).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "4f9a564c75355",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690473149,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "5",
+          "name": "Hải Sản Trộn",
+          "price": "220000",
+          "image": "../asset/image/food-menu/1(5).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "7",
+          "name": "Hàu Chấm Muối Ớt",
+          "price": "190000",
+          "image": "../asset/image/food-menu/1(7).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "fc702e65598f8",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690473587,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "4",
+          "name": "Cá Thu Chiên Xù",
+          "price": "140000",
+          "image": "../asset/image/food-menu/1(4).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "3",
+          "name": "Combo Hải Sản ",
+          "price": "680000",
+          "image": "../asset/image/food-menu/1(3).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "0e59c760e7722",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690480545,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "10",
+          "name": "Cơm Cuộn Lá Rong",
+          "price": "150000",
+          "image": "../asset/image/food-menu/1(10).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "9",
+          "name": "Tôm Hùm Hấp Cay",
+          "price": "340000",
+          "image": "../asset/image/food-menu/1(9).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "11",
+          "name": "Thịt Bò Nướng Tái",
+          "price": "230000",
+          "image": "../asset/image/food-menu/1(11).jpg",
+          "quantityInCart": 3
+        },
+        {
+          "id": "6",
+          "name": "Cá Thu Cauliflower",
+          "price": "130000",
+          "image": "../asset/image/food-menu/1(6).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "2",
+          "name": "Vẹn Hấp Mẻ Ớt",
+          "price": "120000",
+          "image": "../asset/image/food-menu/1(2).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "3",
+          "name": "Combo Hải Sản ",
+          "price": "680000",
+          "image": "../asset/image/food-menu/1(3).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "5",
+          "name": "Hải Sản Trộn",
+          "price": "220000",
+          "image": "../asset/image/food-menu/1(5).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "ba049bb99649a",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690482508,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "2",
+          "name": "Vẹn Hấp Mẻ Ớt",
+          "price": "120000",
+          "image": "../asset/image/food-menu/1(2).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "d9987813924c",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690484064,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "2",
+          "name": "Vẹn Hấp Mẻ Ớt",
+          "price": "120000",
+          "image": "../asset/image/food-menu/1(2).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "3",
+          "name": "Combo Hải Sản ",
+          "price": "680000",
+          "image": "../asset/image/food-menu/1(3).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "1d02500688e1",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690484791,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "5",
+          "name": "Hải Sản Trộn",
+          "price": "220000",
+          "image": "../asset/image/food-menu/1(5).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "4c9eaef2429ab",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690485505,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "3",
+          "name": "Combo Hải Sản ",
+          "price": "680000",
+          "image": "../asset/image/food-menu/1(3).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "5c22cfe189db3",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690485657,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "2",
+          "name": "Vẹn Hấp Mẻ Ớt",
+          "price": "120000",
+          "image": "../asset/image/food-menu/1(2).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "3",
+          "name": "Combo Hải Sản ",
+          "price": "680000",
+          "image": "../asset/image/food-menu/1(3).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "72c9e8b6e1ed8",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690485757,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "3",
+          "name": "Combo Hải Sản ",
+          "price": "680000",
+          "image": "../asset/image/food-menu/1(3).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "4",
+          "name": "Cá Thu Chiên Xù",
+          "price": "140000",
+          "image": "../asset/image/food-menu/1(4).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "d346c4e8f0e21",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690489286,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "2",
+          "name": "Vẹn Hấp Mẻ Ớt",
+          "price": "120000",
+          "image": "../asset/image/food-menu/1(2).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "1d30b9ff98a96",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "",
+      "address": "",
+      "order_date": 1690491297,
+      "phoneNumber": "",
+      "order_items": [
+        {
+          "id": "2",
+          "name": "Vẹn Hấp Mẻ Ớt",
+          "price": "120000",
+          "image": "../asset/image/food-menu/1(2).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "b991f45ddd21f",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "ưdfdf",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690491725,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "3",
+          "name": "Combo Hải Sản ",
+          "price": "680000",
+          "image": "../asset/image/food-menu/1(3).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "a526d8279f1",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690492642,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "2",
+          "name": "Vẹn Hấp Mẻ Ớt",
+          "price": "120000",
+          "image": "../asset/image/food-menu/1(2).jpg",
+          "quantityInCart": 1
+        },
+        {
+          "id": "1",
+          "name": "Tôm Biển Hấp",
+          "price": "180000",
+          "image": "../asset/image/food-menu/1(1).jpg",
+          "quantityInCart": 1
+        }
+      ]
+    },
+    {
+      "id": "4857bb138a23e",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690492854,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "2",
+          "name": "Vẹn Hấp Mẻ Ớt",
+          "price": "120000",
+          "image": "../asset/image/food-menu/1(2).jpg",
+          "quantityInCart": 2
+        }
+      ]
+    },
+    {
+      "id": "6a16d4e52fbda",
+      "payment_method": 1,
+      "user_id": 4,
+      "fullname": "Trịnh Đình Hải",
+      "address": "Xã Xuân Tín, Huyện Thọ Xuân, Tỉnh Thanh Hóa",
+      "order_date": 1690494598,
+      "phoneNumber": "0355724014",
+      "order_items": [
+        {
+          "id": "7",
+          "name": "Hàu Chấm Muối Ớt",
+          "price": "190000",
+          "image": "../asset/image/food-menu/1(7).jpg",
+          "quantityInCart": 2
+        }
+      ]
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "fullname": "Minh nguyễn"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Tôm Biển Hấp",
+      "price": "180000",
+      "image": "../asset/image/food-menu/1(1).jpg"
+    },
+    {
+      "id": "2",
+      "name": "Vẹn Hấp Mẻ Ớt",
+      "price": "120000",
+      "image": "../asset/image/food-menu/1(2).jpg"
+    },
+    {
+      "id": "3",
+      "name": "Combo Hải Sản ",
+      "price": "680000",
+      "image": "../asset/image/food-menu/1(3).jpg"
+    },
+    {
+      "id": "4",
+      "name": "Cá Thu Chiên Xù",
+      "price": "140000",
+      "image": "../asset/image/food-menu/1(4).jpg"
+    },
+    {
+      "id": "5",
+      "name": "Hải Sản Trộn",
+      "price": "220000",
+      "image": "../asset/image/food-menu/1(5).jpg"
+    },
+    {
+      "id": "6",
+      "name": "Cá Thu Cauliflower",
+      "price": "130000",
+      "image": "../asset/image/food-menu/1(6).jpg"
+    },
+    {
+      "id": "7",
+      "name": "Hàu Chấm Muối Ớt",
+      "price": "190000",
+      "image": "../asset/image/food-menu/1(7).jpg"
+    },
+    {
+      "id": "8",
+      "name": "Hành Nướng Cháy",
+      "price": "68000",
+      "image": "../asset/image/food-menu/1(8).jpg"
+    },
+    {
+      "id": "9",
+      "name": "Tôm Hùm Hấp Cay",
+      "price": "340000",
+      "image": "../asset/image/food-menu/1(9).jpg"
+    },
+    {
+      "id": "10",
+      "name": "Cơm Cuộn Lá Rong",
+      "price": "150000",
+      "image": "../asset/image/food-menu/1(10).jpg"
+    },
+    {
+      "id": "11",
+      "name": "Thịt Bò Nướng Tái",
+      "price": "230000",
+      "image": "../asset/image/food-menu/1(11).jpg"
+    },
+    {
+      "id": "12",
+      "name": "Tôm Hùm Nướng Than",
+      "price": "90000",
+      "image": "../asset/image/food-menu/1(12).jpg"
+    }
+  ]
+}

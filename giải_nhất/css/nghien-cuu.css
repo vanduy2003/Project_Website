@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #1e3769;
+  }
+
+  .banner-nghien-cuu {
+    position: relative;
+    padding-top: 5rem;
+  }
+  
+  .banner-nghien-cuu img{
+    width: 100%;
+  }
+
+  .hr-breadcrumb {
+    margin-bottom: 40px;
+  }
+
+.hr-cus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .hr-custom {
+    width: 95%;
+    height: 1px;
+    background-color: #000;
+  }
+
+
+
+
+  
+
+  .scientific-title {
+    margin-top: 40px;
+  }
+  .scientific-title h3{
+    font-weight: bold;
+    font-size: 48px;
+    text-align: left;
+    margin-bottom: 70px;
+  }
+  .table thead th {
+    color: #fff; 
+    background-color: #1e3769; 
+  }
+
+  .table tbody td {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .table tbody td{
+    color: #1e3769;   
+  }
+
+  .year-table table {
+    width: 100%;
+    text-align: center;
+  }
+  .year-table table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .year-button {
+    padding-right: 20px;
+  }
+
+  .pagination{
+    margin-top: 50px;
+  }
+  .year-buttons {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .year-buttons .year-button {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1e3769;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .year-button.active {
+    background-color: #1e3769;
+    color: #fff;
+  }
+
+  .year-buttons .year-button:hover {
+    background-color: #1e3769;
+    color: #fff;
+
+  }
+
+  @media (max-width: 768px) {
+    .year-buttons .year-button {
+    font-size: 16px;
+    padding: 5px 10px;
+    }
+    .scientific-title h3{
+      font-size: 32px;
+    }
+    .blog-title h3{
+      font-size: 32px;
+    }
+
+    .year-table {
+      overflow-x: auto;
+    }
+  
+    .year-table::-webkit-scrollbar {
+      height: 8px;
+      background-color: #f5f5f5;
+    }
+  
+    .year-table::-webkit-scrollbar-thumb {
+      background-color: #888;
+      border-radius: 4px;
+    }
+  
+    .year-table::-webkit-scrollbar-thumb:hover {
+      background-color: #555;
+    }
+  
+    .year-table table {
+      min-width: 100%;
+    }
+  
+    .year-table table th,
+    .year-table table td {
+      white-space: nowrap;
+    }
+
+    
+    .year-table table td:nth-child(2) {
+      min-width: 200px;
+      width: auto;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: normal;
+      word-wrap: break-word;
+    }
+    .year-table table td {
+      text-align: left;
+      vertical-align: middle;
+    }
+  }
+
+  .pagination {
+    border: none;
+  }
+  .page-item.disabled .page-link{color: #69696c;}
+  
+  .pagination .page-link {
+    border: none;
+  }
+  .pagination .page-item.disabled .page-link {
+    background-color: transparent;
+  }
+
+  .page-item .page-link {
+    color: rgb(46, 44, 44);
+    border: none;
+  }
+
+  .pagination .page-item.active .page-link {
+    background-color: #1e3769;
+    color: #fff;
+  }
+
+  .page-item.disabled {
+    background: #fff  ;
+  }

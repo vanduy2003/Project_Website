@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1e3769;
+}
+
+#main {
+  padding-top: 5rem;
+}
+.hr-breadcrumb {
+  margin-bottom: 40px;
+}
+
+.contact-title h1 {
+  text-align: center;
+  position: relative;
+}
+
+.contact-title h1:before {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #1e3769;
+  display: inline-block;
+  top: 50%;
+  position: absolute;
+  right: 57%;
+}
+.contact-title h1:after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #1e3769;
+  display: inline-block;
+  top: 50%;
+  position: absolute;
+  left: 57%;
+}
+
+.contact {
+  --color-box-background: #f7f7f7;
+}
+
+.contact .info-item {
+  background: var(--color-box-background);
+  padding: 30px;
+}
+
+.contact .info-item i {
+  font-size: 38px;
+  line-height: 0;
+  color: var(--color-primary);
+}
+
+.contact .info-item h3 {
+  color: var(--color-secondary);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+.contact .info-item p {
+  padding: 0;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.contact .form-contact {
+  background: var(--color-box-background);
+  padding: 30px;
+  height: 100%;
+}
+
+.contact .form-contact input[type="text"],
+.contact .form-contact input[type="email"],
+.contact .form-contact textarea {
+  font-size: 14px;
+  padding: 8px 15px;
+  box-shadow: none;
+  border-radius: 0;
+  color: var(--color-default);
+  background-color: rgba(var(--color-background-rgb), 0.5);
+  border-color: rgba(var(--color-default-rgb), 0.2);
+}
+
+.form-contact button {
+  padding: 10px 30px;
+  color: var(--color-box-background);
+  background-color: #1e3769;
+  border: none;
+  border-radius: 4px;
+}
+
+@media (max-width: 1200px) {
+  .contact-title h1:before {
+    right: 59%;
+  }
+  .contact-title h1:after {
+    left: 59%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact-title h1:before {
+    right: 61%;
+  }
+  .contact-title h1:after {
+    left: 61%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-title h1:before {
+    right: 67%;
+  }
+  .contact-title h1:after {
+    left: 67%;
+  }
+}
+
+
+
+.info-item p a{
+  color: #1e3769;
+  text-decoration: none;
+}
+.info-item p a:hover{
+  color: #f9690e;
+}

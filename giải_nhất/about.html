@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Giới thiệu - Khoa công nghệ thông tin</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/swiper@9_swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <meta
+      name="description"
+      content="Khoa Công nghệ Thông tin theo hướng ứng dụng”."
+    />
+    <meta property="og:site_name" content="EAUT - Khoa Công nghệ thông tin" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Trang chủ - EAUT" />
+    <meta
+      property="og:description"
+      content="Trường Đại học Công Nghệ Đông Á (EAUT) với triết lý giáo dục của nhà trường “Học phải có việc làm”."
+    />
+    <link
+      rel="icon"
+      href="https://eaut.edu.vn/wp-content/uploads/2023/07/cropped-th7umbnail-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="https://eaut.edu.vn/wp-content/uploads/2023/07/cropped-th7umbnail-192x192.png"
+      sizes="192x192"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://eaut.edu.vn/wp-content/uploads/2023/07/cropped-th7umbnail-270x270.png"
+    />
+  </head>
+  <body>
+
+    <!-- Nav -->
+    <header id="header" class="d-flex align-items-center header-scroll">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo"
+          ><img src="images/LogoEAUT-Final/logo-final.png" alt=""
+        /></a>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto" href="/index.html">TRANG CHỦ</a>
+            </li>
+            <li class="dropdown">
+              <a class="nav-link scrollto active" href="about.html"
+                >GIỚI THIỆU</a
+              >
+              <ul>
+                <li><a href="about.html">Khoa CNTT</a></li>
+                <li><a href="giang-vien.html">Giảng viên</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="dao-tao.html">ĐÀO TẠO</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="nghien-cuu.html">NGHIÊN CỨU</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="hop-tac.html">HỢP TÁC</a>
+            </li>
+            <li><a class="nav-link scrollto" href="q&a.html">Q&A</a></li>
+            <li class="dropdown">
+              <a class="nav-link scrollto" href="news.html?id=1&page=1"
+                >TIN TỨC</a
+              >
+              <ul>
+                <li><a href="news.html?id=1&page=1">Tin tức chung</a></li>
+                <li><a href="news.html?id=2&page=1">Tin thông báo</a></li>
+                <li><a href="news.html?id=3&page=1">Tin tuyển dụng</a></li>
+                <li><a href="news.html?id=4&page=1">Hoạt động đối ngoại</a></li>
+                <li>
+                  <a href="news.html?id=5&page=1">Hoạt động nghiên cứu</a>
+                </li>
+                <li><a href="news.html?id=6&page=1">Hoạt động kí kết</a></li>
+              </ul>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+
+        <nav id="sub-navbar" class="sub-navbar container">
+          <div class="subnav-wrapper">
+            <ul>
+              <li>
+                <a class="nav-link scrollto" href="/index.html">
+                  <span class="icon-square"></span>
+                  <i class="fas fa-home icon-home"></i>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="about.html"
+                  id="gioiThieudd"
+                  role="button"
+                  data-bs-toggle="false"
+                  aria-expanded="false"
+                >
+                  GIỚI THIỆU
+                </a>
+                <ul
+                  id="dropDownGT"
+                  class="dropdown-menu"
+                  aria-labelledby="gioiThieudd"
+                >
+                  <li>
+                    <a class="dropdown-item" href="about.html">Khoa CNTT</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="giang-vien.html"
+                      >Giảng viên</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="contact.html">Liên hệ</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="dao-tao.html">ĐÀO TẠO</a>
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="nghien-cuu.html"
+                  >NGHIÊN CỨU</a
+                >
+              </li>
+              <li>
+                <a class="nav-link scrollto" href="hop-tac.html">HỢP TÁC</a>
+              </li>
+              <li><a class="nav-link scrollto" href="q&a.html">Q&A</a></li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="news.html?id=1&page=1"
+                  id="tinTucdd"
+                  role="button"
+                  data-bs-toggle="false"
+                  aria-expanded="false"
+                >
+                  TIN TỨC
+                </a>
+                <ul
+                  id="dropDownTT"
+                  class="dropdown-menu"
+                  aria-labelledby="tinTucdd"
+                >
+                  <li>
+                    <a class="dropdown-item" href="news.html?id=1&page=1"
+                      >Tin tức chung</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="news.html?id=2&page=1"
+                      >Tin thông báo</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="news.html?id=3&page=1"
+                      >Tin tuyển dụng</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="news.html?id=4&page=1"
+                      >Hoạt động đối ngoại</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="news.html?id=5&page=1"
+                      >Hoạt động nghiên cứu</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="news.html?id=6&page=1"
+                      >Hoạt động kí kết</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End NAV -->
+
+    <!-- banner Area -->
+    <section class="banner-area">
+      <div class="container" data-aos="fade-up">
+        <img src="images/img-about/banner-about.png" alt="" />
+      </div>
+    </section>
+    <!-- end banner Area -->
+    <!-- breadcrumb area -->
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb custom">
+          <li class="breadcrumb-item"><a href="index.html">TRANG CHỦ</a></li>
+          <li class="breadcrumb-item"><a href="#">GIỚI THIỆU</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            KHOA CÔNG NGHỆ THÔNG TIN
+          </li>
+        </ol>
+      </nav>
+      <hr class="hr-breadcrumb" />
+    </div>
+    <!-- end breadcrumb area -->
+
+    <!-- introduce Area -->
+    <section class="introduce-area">
+      <div class="container" data-aos="fade-down">
+        <div class="row">
+          <div class="intro-left col-md-6 col-xl-6">
+            <div class="introduce-text">
+              <h2 class="title">
+                Khoa Công nghệ Thông tin theo hướng ứng dụng
+              </h2>
+              <p class="col-10 mx-auto">
+                Khoa Công nghệ thông tin được thành lập theo Quyết định số
+                xxxx/QĐ-xxx của Hiệu trưởng Trường Đại học Công Nghệ Đông Á ngày
+                xx/xx/20xx. Hiện nay, Khoa gồm có 04 chuyên ngành đào tạo: Mạng
+                máy tính & truyền thông, Công nghệ phần mềm, Khoa học máy tính
+                và Hệ thống thông tin quản lý. Với nhiệm vụ đào tạo nguồn nhân
+                lực chất lượng cao thuộc lĩnh vực công nghệ thông tin, và tham
+                gia các hoạt động nghiên cứu khoa học và chuyển giao công nghệ.
+              </p>
+            </div>
+            <div class="introduce-img-1">
+              <img
+                src="images/img-about/about-img2.png"
+                alt="dai-hoc-cong-nghe-dong-a"
+              />
+            </div>
+          </div>
+          <div class="intro-right col-md-6 col-xl-6">
+            <div class="introduce-img">
+              <img
+                src="images/img-about/about-img1.png"
+                alt="dai-hoc-cong-nghe-dong-a"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end introduce Area -->
+
+    <!-- history begin area-->
+    <!-- Swiper -->
+
+    <section class="history-begin">
+      <div class="container" data-aos="fade-up">
+        <div class="swiper historySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="item-date">17.02.2012</div>
+              <div class="item-text">
+                Khoa Công nghệ thông tin được thành lập theo Quyết định số
+                xxxx/xxxx của Hiệu trưởng Trường Đại học Công Nghệ Đông Á
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item-date">2018</div>
+              <div class="item-text">
+                Sinh Viên khóa 5 khoa Công Nghệ Thông Tin bảo vệ đồ án tốt
+                nghiệp
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item-date">2020</div>
+              <div class="item-text">
+                Sinh Viên khóa 5 khoa Công Nghệ Thông Tin bảo vệ đồ án tốt
+                nghiệp
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item-date">2021</div>
+              <div class="item-text">
+                Mở thêm 10 phòng máy thực hành với màn hình ASUS ips27” full HD,
+                cấu hình chip core i5 đời mới nhất ram 8G, card màn hình rời 2G
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item-date">2022</div>
+              <div class="item-text">
+                Giải ba, giải thưởng Khoa Học và Công Nghệ dành cho sinh viên
+                2022
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="item-date">2023</div>
+              <div class="item-text">Chưa có thông tin chi tiết</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end history begin area-->
+
+    <!-- core values -->
+    <section class="core-values">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h3>Giá trị cốt lõi</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="core-values-box">
+              <div class="icon-value">
+                <img src="/images/img-about/quality_1212158.png" alt="" />
+              </div>
+              <h4 class="core-values-content">Chất Lượng</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="core-values-box">
+              <div class="icon-value">
+                <img src="images/img-about/checked_1926868.png" alt="" />
+              </div>
+              <h4 class="core-values-content">Ứng Dụng</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="core-values-box">
+              <div class="icon-value">
+                <img src="images/img-about/idea_8594032.png" alt="" />
+              </div>
+              <h4 class="core-values-content">Sáng Tạo</h4>
+            </div>
+          </div>
+        </div>
+        <hr class="core-values-hr" />
+      </div>
+    </section>
+
+    <!-- infrastructure area -->
+    <section class="infrastructure">
+      <div class="container" data-aos="fade-down">
+        <div class="row title align-items-end">
+          <div class="col-md-7 col-xl-7">
+            <h2>Cơ sở vật chất</h2>
+            <p>
+              Khoa Công nghệ Thông tin tại trường tự hào sở hữu một cơ sở vật
+              chất hiện đại và đầy đủ nhằm đáp ứng nhu cầu học tập và nghiên cứu
+              của sinh viên. Nhà trường đã đầu tư một hệ thống máy tính đồng bộ
+              tiên tiến, mang lại trải nghiệm tốt nhất cho sinh viên. Hệ thống
+              máy tính tại phòng thực hành được trang bị màn hình ASUS IPS27,
+              đem lại chất lượng hình ảnh sắc nét và màu sắc chân thực. Máy tính
+              được cấu hình với chip Core i5 đời mới nhất, RAM 8GB và card đồ
+              họa rời 2GB chuyên dụng cho đồ họa 3D.
+            </p>
+          </div>
+        </div>
+        <div class="row" data-aos="fade-down">
+          <div class="swiper" id="swiper-2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <figure>
+                  <img
+                    src="images/img-about/dinhtrongdat.jpg"
+                    alt="Dinh Trong Dat, Building"
+                  />
+                  <figcaption>
+                    <img src="images/icon-location.svg" alt="Icon location" />
+                    Đinh Trọng Dật, Building
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+                <figure>
+                  <img
+                    src="images/img-about/toaan.jpg"
+                    alt="phong hoc toa an, thuan thanh Building"
+                  />
+                  <figcaption>
+                    <img src="images/icon-location.svg" alt="Icon location" />
+                    Phòng học tòa án, Thuận Thành Building
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+                <figure>
+                  <img
+                    src="images/img-about/phong-thuc-hanh.jpg"
+                    alt="phong hoc thuc hanh, Polyco Building"
+                  />
+                  <figcaption>
+                    <img src="images/icon-location.svg" alt="Icon location" />
+                    Phòng học thực hành, Polyco Building
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+                <figure>
+                  <img
+                    src="images/img-about/thuvienfake.jpg"
+                    alt="Calle Niño de Guevara, 1, 29008 Málaga, Spain"
+                  />
+                  <figcaption>
+                    <img src="images/icon-location.svg" alt="Icon location" />
+                    Thư viện, Đinh Trọng Dật
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+                <figure>
+                  <img
+                    src="images/img-about/sanbong.jpg"
+                    alt="Valldemossa, Spain"
+                  />
+                  <figcaption>
+                    <img src="images/icon-location.svg" alt="Icon location" />
+                    Sân bóng rổ, Polyco
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+                <figure>
+                  <img
+                    src="images/img-about/thuvienreal.jpg"
+                    alt="Cala S'Almunia in Mallorca, Spain"
+                  />
+                  <figcaption>
+                    <img src="images/icon-location.svg" alt="Icon location" />
+                    Thư viện, Polyco
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- end swiper-slide -->
+            </div>
+            <!-- end swiper-wrapper -->
+
+            <div class="swiper-custom-nav">
+              <svg
+                width="64"
+                height="64"
+                viewBox="0 0 64 64"
+                id="nav-left"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M32 2.79753e-06C14.3269 4.34256e-06 -4.34256e-06 14.3269 -2.79753e-06 32C-1.2525e-06 49.6731 14.3269 64 32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 1.2525e-06 32 2.79753e-06ZM28.9334 24.3999C28.6667 24.1333 28.4 23.9999 28 23.9999C27.6 23.9999 27.3334 24.1333 27.0667 24.3999L20.4 31.0666L20.4 31.0667C20.2 31.2667 20.075 31.5041 20.025 31.751C19.9417 32.1624 20.0666 32.6 20.4 32.9333L27.0667 39.6C27.6 40.1333 28.4 40.1333 28.9333 39.6C29.4667 39.0667 29.4667 38.2667 28.9333 37.7333L24.5334 33.3334L42.7222 33.3334C43.4889 33.3334 44 32.8 44 32C44 31.2 43.4889 30.6667 42.7222 30.6667L24.5333 30.6667L28.9334 26.2666C29.4667 25.7333 29.4667 24.9333 28.9334 24.3999Z"
+                  fill="white"
+                />
+              </svg>
+
+              <svg
+                width="64"
+                height="64"
+                viewBox="0 0 64 64"
+                id="nav-right"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64ZM35.0666 39.6001C35.3333 39.8667 35.6 40.0001 36 40.0001C36.4 40.0001 36.6666 39.8667 36.9333 39.6001L43.6 32.9334L43.6 32.9333C43.8 32.7333 43.925 32.4959 43.975 32.249C44.0583 31.8376 43.9334 31.4 43.6 31.0667L36.9333 24.4C36.4 23.8667 35.6 23.8667 35.0667 24.4C34.5333 24.9333 34.5333 25.7333 35.0667 26.2667L39.4666 30.6666H21.2778C20.5111 30.6666 20 31.2 20 32C20 32.8 20.5111 33.3333 21.2778 33.3333H39.4667L35.0666 37.7334C34.5333 38.2667 34.5333 39.0667 35.0666 39.6001Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <!-- end swiper-custom-nav -->
+          </div>
+          <!-- end swiper -->
+        </div>
+        <div class="row">
+          <div class="video-wrapper">
+            <iframe
+              id="ytplayer"
+              type="text/html"
+              width="1080"
+              height="728"
+              src="https://www.youtube.com/embed/LryCrVaGobg?autoplay=1&mute=1"
+              frameborder="0"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end infrastructure area -->
+
+    <section class="team">
+      <div class="container" data-aos="fade-up">
+        <hr />
+        <div class="row">
+          <h2>Ban chủ nghiệm Khoa</h2>
+          <div class="row pt-6">
+            <div class="col-lg-6">
+              <div class="card-info">
+                <div class="content">
+                  <div class="image-box">
+                    <img
+                      src="images/img-about/tranxuanthanh.png"
+                      alt="dinh van thanh"
+                    />
+                  </div>
+                  <div class="details">
+                    <div class="name">Ths. Trần Xuân Thanh</div>
+                    <div class="job">Trưởng Khoa</div>
+                    <div class="date-of-birth">Năm Sinh: 1954</div>
+                    <div class="specialization">
+                      <b>Chuyên Ngành:</b> Khoa học máy tính
+                    </div>
+                    <div class="d-flex justify-content-start">
+                      <a href="#" class="btn-get-started scrollto"
+                        >Xem Chi Tiết<i class="fa fa-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card-info">
+                <div class="content">
+                  <div class="image-box">
+                    <img
+                      src="/images/img-about/maivanlinh.png"
+                      alt="dinh van thanh"
+                    />
+                  </div>
+                  <div class="details">
+                    <div class="name">Ths. Mai Văn Linh</div>
+                    <div class="job">Phó Trưởng Khoa</div>
+                    <div class="date-of-birth">Năm Sinh: 1954</div>
+                    <div class="specialization">
+                      <b>Chuyên Ngành:</b> Khoa học máy tính
+                    </div>
+                    <div class="d-flex justify-content-start">
+                      <a href="#" class="btn-get-started scrollto"
+                        >Xem Chi Tiết<i class="fa fa-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Team Section -->
+
+    <!-- end team area -->
+
+    <!-- Footer -->
+
+    <footer id="footer" class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-12 footer-info">
+              <a href="https://eaut.edu.vn/" class="eaut" target="_blank"
+                >Đại Học Công Nghệ Đông Á <br />
+                <span>Hà Nội</span></a
+              >
+              <p>
+                Cơ sở đào tạo thực hành: <br />
+                <br />
+                Toà Nhà Polyco, Trịnh Văn Bô, Nam Từ Liêm, Hà Nội<br />
+                <br />
+                <strong>Điện thoại:</strong> 0243.555.2008 <br />
+                <br />
+                <strong>Email:</strong> tuyensinh@eaut.edu.vn<br />
+              </p>
+            </div>
+
+            <div class="col-lg-4 col-md-12 footer-info">
+              <a href="index.html" class="eaut"
+                >Đại Học Công Nghệ Đông Á <br />
+                <span> Khoa Công Nghệ Thông Tin </span></a
+              >
+              <p>
+                Cơ sở đào tạo thực hành: <br />
+                <br />
+                Toà Nhà Polyco, Trịnh Văn Bô, Nam Từ Liêm, Hà Nội<br />
+                <br />
+                <strong>Điện thoại:</strong> 024.6262.7797 <br />
+                <br />
+                <strong>Email:</strong> thanhct@eaut.edu.vn<br />
+              </p>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="map-footer">
+                <div class="map-footer">
+                  <div class="google-maps">
+                    <iframe
+                      src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkhoacntteaut&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                      width="340"
+                      height="130"
+                      style="border: none; overflow: hidden"
+                      scrolling="no"
+                      frameborder="0"
+                      allowfullscreen="true"
+                      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <hr class="custom-hr2" />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-under">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-lg-start text-center">
+              <div class="copyright">
+                Copyright © 2023 Đại học Công Nghệ Đông Á All rights reserved.
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social-links mt-6">
+                <a
+                  href="https://www.facebook.com/khoacntteaut"
+                  class="facebook"
+                  target="_blank"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a
+                  href="https://www.tiktok.com/@daihoccongnghedonga"
+                  class="tiktok"
+                  target="_blank"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+                <a
+                  href="https://www.youtube.com/@dhcnDongA"
+                  class="youtube"
+                  target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+                <a
+                  href="https://www.facebook.com/messages/t/105486557893424"
+                  class="messenger"
+                  target="_blank"
+                  ><i class="fab fa-facebook-messenger"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end Footer -->
+
+    <!-- bootstrap, Swiper, query  -->
+    <script src="vendor/swiperjs/swiper-bundle.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="vendor/jquery/jquery-3.6.3.min.js"></script>
+    <script src="vendor/swiperjs/swiper-bundle1.min.js"></script>
+    <script src="vendor/AOS/aos@2.3.1_dist_aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- fontawesome icon -->
+    <script
+      src="https://kit.fontawesome.com/a3d582ef4a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="js/general.js"></script>
+    <script src="js/about.js"></script>
+    <script
+      src="https://w.ladicdn.com/ladichat/sdk.js"
+      id="64c0291bcb19aa0012d7c95a_64c0297aa96c3b0012ef7616"
+      async
+    ></script>
+  </body>
+</html>
